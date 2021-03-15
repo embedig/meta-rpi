@@ -49,6 +49,12 @@ QT5_PKGS = " \
     qtxmlpatterns \
 "
 
+QT5_WEBENGINE_PKGS = " \
+    qtwebengine-dev \
+    qtwebengine-mkspecs \
+    qtwebengine \
+"
+
 TEST_APPS += " \
     qmlswipe-tools \
     qt5-opengles2-test \
@@ -57,6 +63,7 @@ TEST_APPS += " \
 IMAGE_INSTALL += " \
     ${QT5_DEV_PKGS} \
     ${QT5_PKGS} \
+    ${QT5_WEBENGINE_PKGS} \
     ${TEST_APPS} \
 "
 
